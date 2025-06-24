@@ -16,7 +16,7 @@
 #   along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 import time
-from tobiiglassesctrl.controller import TobiiGlassesController
+from libtobiiglassesctrl.controller import TobiiGlassesController
 
 if hasattr(__builtins__, 'raw_input'):
       input=raw_input
